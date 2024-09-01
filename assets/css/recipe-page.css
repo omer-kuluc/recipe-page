@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: system-ui;
+}
+
+body {
+  background-color: #f3e5d7;
+}
+
+.container {
+  max-width: 736px;
+  margin-inline: auto;
+  padding-top: 128px;
+  background-color: #fff;
+}
+
+.blog-page {
+  margin-inline: 40px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-family: "Young Serif";
+  color: #312e2c;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-top: 40px;
+}
+
+.introduction {
+  margin-top: 24px;
+  font-family: "Outfit";
+  color: #5f564d;
+  margin-bottom: 32px;
+}
+
+.preparation-time {
+  background-color: #fff7fb;
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+}
+
+.preparation-time h4 {
+  font-family: "Outfit";
+  color: #7a284e;
+  font-size: 20px;
+  padding: 24px 24px 16px 24px;
+  font-weight: 600;
+}
+
+.preparation-time ul {
+  margin-left: 8px;
+}
+
+.preparation-time li {
+  font-family: "Outfit";
+  color: #5f564d;
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+
+.preparation-time li span {
+  font-weight: 700;
+}
+
+.ingredients {
+  margin-bottom: 32px;
+}
+
+.ingredients h2 {
+  font-family: "Young Serif";
+  color: #854632;
+  margin-bottom: 24px;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.ingredients ul {
+  margin-left: -20px; /*margin ekis yapmak zorunda kaldım*/
+}
+
+.ingredients li {
+  font-family: "Outfit";
+  color: #5f564d;
+  padding-left: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.instructions {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.instructions h2 {
+  font-family: "Young Serif";
+  color: #854632;
+  margin-bottom: 24px;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.instructions ol {
+  margin-left: -20px;
+}
+
+.instructions li {
+  font-family: "Outfit";
+  color: #5f564d;
+  line-height: 24px;
+  padding-left: 24px;
+  margin-bottom: 8px;
+}
+
+.instructions li span {
+  font-family: "Outfit";
+  color: #5f564d;
+  font-weight: 700;
+}
+
+.nutrition {
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.nutrition h2 {
+  font-family: "Young Serif";
+  color: #854632;
+  margin-bottom: 24px;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.nutrition p {
+  margin-bottom: 24px;
+  font-family: "Outfit";
+  color: #5f564d;
+}
+
+.nutrition table {
+  border-collapse: collapse;
+  width: 100%;
+  border-bottom: #e3ddd7;
+}
+
+.first-column {
+  padding-left: 32px;
+  font-family: "Outfit";
+  color: #5f564d;
+}
+
+.second-column {
+  font-family: "Outfit";
+  color: #854632;
+  font-weight: 700;
+  padding-right: 32px;
+}
+
+.nutrition table th,
+td {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e3ddd7;
+  padding-top: 12px;
+}
